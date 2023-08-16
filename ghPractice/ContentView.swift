@@ -18,6 +18,7 @@ struct ContentView: View {
 
     var body: some View {
         NavigationView {
+            Text("Hi")
             List {
                 ForEach(items) { item in
                     NavigationLink {
